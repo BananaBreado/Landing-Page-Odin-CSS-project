@@ -136,6 +136,35 @@ span {
     flex-wrap: wrap;
     max-width: 10em;
     font-size: 16px;
-
 }
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    color:rgb(49, 49, 49);
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    max-width: 17em;
+    font-size: 50px;
+    margin-top: 2em;
+    align-self: center;
+}
+
+.quote-author {
+    display: flex;
+    color:rgb(27, 27, 27);
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    max-width: 15em;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 2em;
+    margin-left: 16em;
+}
