@@ -79,8 +79,9 @@ button {
     display: flex;
     flex-direction: row;
     gap: 1em;
+    margin-left: -15em;
 }
 
 .images img {
-    width: 10em;
+    width: 15em;
 }
