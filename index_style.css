@@ -7,23 +7,23 @@ body {
 
 .headers {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     color:aliceblue;
     background-color: #bb263f;
     padding: 2em;
     font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
+    align-items: baseline;
 }
 
-.headers .header {
-    margin-left: 6em;
+.header {
+    display: flex;
     font-size: 25px;
     font-weight: bold;
+    margin-right: 34em;
 }
 
 .links {
     display: flex;
-    margin-right: 10em;
     gap: 1em;
 }
 
@@ -62,7 +62,17 @@ body {
 }
 
 button {
-
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: yellowgreen;
+    color: aliceblue;
+    border-style: none;
+    padding: 10px;
+    text-align: center;
 }
 
 .images {
