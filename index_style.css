@@ -212,3 +212,14 @@ span {
     padding: 10px;
     text-align: center;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+    align-items: center;
+    background-color:#bb263f;
+    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    font-size: 15px;
+}
