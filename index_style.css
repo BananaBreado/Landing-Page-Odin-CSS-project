@@ -61,7 +61,7 @@ body {
     margin-bottom: 10px;
 }
 
-button {
+#order-button {
     display: flex;
     flex-wrap: wrap;
     width: fit-content;
@@ -167,4 +167,31 @@ span {
     font-weight: bold;
     margin-bottom: 2em;
     margin-left: 16em;
+}
+
+.last-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+    background-color: rgb(235, 156, 156);
+    padding: 2em;
+    border-radius: 1em;
+    align-items: center;
+}
+
+.signup-text .signup-action-text {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#info-button {
+    
 }
