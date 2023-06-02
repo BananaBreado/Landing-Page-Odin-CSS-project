@@ -172,16 +172,17 @@ span {
 .last-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 3em;
-    margin-top: 3em;
+    padding-bottom: 5em;
+    padding-top: 5em;
+    background-color:rgb(22, 22, 22);
 }
 
 .signup-container {
     display: flex;
     flex-direction: row;
     gap: 5em;
-    background-color: rgb(235, 156, 156);
-    padding: 2em;
+    background-color: yellowgreen;
+    padding: 5em;
     border-radius: 1em;
     align-items: center;
 }
@@ -190,8 +191,24 @@ span {
     font-size: 30px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.signup-text .signup-action-subtext {
+    color: aliceblue;
 }
 
 #info-button {
-    
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: yellowgreen;
+    color: aliceblue;
+    border: solid aliceblue 5px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
 }
